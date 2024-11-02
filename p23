@@ -1,0 +1,22 @@
+CODE
+#include<stdio.h>
+ int main()
+ {
+     int i,j,n,a;
+     printf("Enter");
+     scanf("%d",&n);
+     for(i=0;i<n;i++)
+         a=65;
+         for(j=0;j<i+1;j++)
+           printf("%c",a++);
+         printf("\n") ;
+     }
+     return 0;
+ }
+ OUTPUT
+ Enter5
+A
+AB
+ABC
+ABCD
+ABCDE
